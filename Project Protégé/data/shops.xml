@@ -1,0 +1,25 @@
+<map>
+  <entry>
+    <int>1</int>
+    <shop>
+      <name>Lumbridge General Store</name>
+      <isGeneralStore>true</isGeneralStore>
+      <id>861</id>
+      <stock>
+        <data>
+		  <item><id>1931</id><amount>1</amount></item>
+		  <item><id>1935</id><amount>1</amount></item>
+		  <item><id>1735</id><amount>1</amount></item>
+		  <item><id>1925</id><amount>1</amount></item>
+		  <item><id>1923</id><amount>1</amount></item>
+		  <item><id>1887</id><amount>1</amount></item>
+		  <item><id>590</id><amount>1</amount></item>
+		  <item><id>1755</id><amount>1</amount></item>
+		  <item><id>2347</id><amount>1</amount></item>
+		  <item><id>550</id><amount>1</amount></item>
+		  <item><id>9003</id><amount>1</amount></item>
+		</data>
+      </stock>
+    </shop>
+  </entry>
+</map>

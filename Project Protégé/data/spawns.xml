@@ -1,0 +1,13 @@
+<list>
+  <spawn>
+    <location>
+      <x>3200</x>
+      <y>3200</y>
+      <z>0</z>
+    </location>
+    <item>
+      <id>995</id>
+      <amount>100</amount>
+    </item>
+  </spawn>
+</list>

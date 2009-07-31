@@ -1,0 +1,11 @@
+<config>
+  <name>RuneScape</name>
+  <spawnPoint>
+    <x>3200</x>
+    <y>3200</y>
+    <z>0</z>
+  </spawnPoint>
+  <experienceRate>1</experienceRate>
+  <debug>false</debug>
+  <maxConnectionsPerIp>3</maxConnectionsPerIp>
+</config>

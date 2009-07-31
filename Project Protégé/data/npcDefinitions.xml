@@ -1,0 +1,51 @@
+<list>
+  <npcDefinition>
+    <id>1</id>
+    <name>Man</name>
+    <examine>They come in a wide variety of clothing.</examine>
+    <respawn>50</respawn>
+    <combat>2</combat>
+    <hitpoints>7</hitpoints>
+    <maxHit>1</maxHit>
+    <attackSpeed>8</attackSpeed>
+    <attackAnim>422</attackAnim>
+    <defenceAnim>404</defenceAnim>
+    <deathAnim>7197</deathAnim>
+  </npcDefinition>
+  <npcDefinition>
+    <id>1265</id>
+    <name>Rock crab</name>
+    <examine>No one likes crabs...</examine>
+    <respawn>50</respawn>
+    <combat>13</combat>
+    <hitpoints>50</hitpoints>
+    <maxHit>1</maxHit>
+  </npcDefinition>
+  <npcDefinition>
+    <id>520</id>
+    <name>Shop keeper</name>
+    <examine>A shop keeper.</examine>
+    <respawn>50</respawn>
+    <combat>0</combat>
+    <hitpoints>0</hitpoints>
+    <maxHit>0</maxHit>
+  </npcDefinition>
+  <npcDefinition>
+    <id>521</id>
+    <name>Shop assistant</name>
+    <examine>A shop keeper's assistant.</examine>
+    <respawn>50</respawn>
+    <combat>0</combat>
+    <hitpoints>0</hitpoints>
+    <maxHit>0</maxHit>
+  </npcDefinition>
+  <npcDefinition>
+    <id>50</id>
+    <name>King black dragon</name>
+    <examine>A mighty dragon.</examine>
+    <respawn>60</respawn>
+    <combat>276</combat>
+    <hitpoints>240</hitpoints>
+    <maxHit>25</maxHit>
+  </npcDefinition>
+</list>
