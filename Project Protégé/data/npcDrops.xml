@@ -1,0 +1,16 @@
+<list>
+  <npcDrop>
+    <npc>1</npc>
+    <drops>
+      <drop>
+        <chance>100</chance>
+        <items>
+          <item>
+            <id>526</id>
+            <amount>1</amount>
+          </item>
+        </items>
+      </drop>
+    </drops>
+  </npcDrop>
+</list>

@@ -1,0 +1,135 @@
+<list>
+  <packet>
+    <handler>com.rs2hd.packethandler.HdNotificationPacketHandler</handler>
+    <binds>
+      <int>129</int>
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.QuietPacketHandler</handler>
+    <binds>
+      <int>0</int>		<!-- Null -->
+      <int>115</int>	<!-- Ping -->
+      <int>117</int>	<!-- Unknown -->
+      <int>248</int>	<!-- Unknown -->
+      <int>247</int>	<!-- Unknown, sent after login -->
+      <int>99</int>		<!-- Unknown -->
+      <int>60</int>		<!-- Entered new map region -->
+      <int>22</int>		<!-- Received when updateRequest is set to true -->
+      <int>59</int>		<!-- Click mouse -->
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.IdlePacketHandler</handler>
+    <binds>
+      <int>47</int>
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.WalkPacketHandler</handler>
+    <binds>
+      <int>49</int>
+      <int>119</int>
+      <int>138</int>
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.ActionButtonPacketHandler</handler>
+    <binds>
+      <int>113</int>
+      <int>233</int>
+      <int>21</int>
+      <int>169</int>
+      <int>232</int>
+      <int>214</int>
+      <int>173</int>
+      <int>90</int>
+      <int>133</int> <!-- TODO check -->
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.CommandPacketHandler</handler>
+    <binds>
+      <int>107</int>
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.ItemPacketHandler</handler>
+    <binds>
+      <int>167</int>	<!-- Swap items -->
+      <int>179</int>	<!-- Swap items 2 -->
+      <int>3</int>		<!-- Equip -->
+      <int>203</int>	<!-- Item option 1 -->
+      <int>152</int>	<!-- Item option 2 -->
+      <int>211</int>	<!-- Drop -->
+      <int>201</int>	<!-- Take -->
+      <int>220</int>	<!-- Item select -->
+      <int>186</int>	<!-- Item operate -->
+      <int>40</int>		<!-- Item on item -->
+      <int>224</int>	<!-- Item on object -->
+      <int>131</int>	<!-- Item on player -->
+      <int>12</int>		<!-- Item on npc -->
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.ChatPacketHandler</handler>
+    <binds>
+      <int>222</int>
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.FriendsPacketHandler</handler>
+    <binds>
+      <int>30</int>		<!-- Add friend -->
+      <int>61</int>		<!-- Add ignore -->
+      <int>132</int>	<!-- Delete friend -->
+      <int>2</int>		<!-- Delete ignore -->
+      <int>178</int>	<!-- Send private message -->
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.RemoveInterfacePacketHandler</handler>
+    <binds>
+      <int>63</int>		<!-- Close chatbox interface -->
+      <int>108</int>	<!-- Close window interface -->
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.ExaminePacketHandler</handler>
+    <binds>
+      <int>38</int>		<!-- Examine item -->
+      <int>88</int>		<!-- Examine npc -->
+      <int>84</int>		<!-- Examine object -->
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.NpcPacketHandler</handler>
+    <binds>
+      <int>7</int>
+      <int>199</int>
+      <int>123</int>
+      <int>52</int>
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.PlayerPacketHandler</handler>
+    <binds>
+      <int>160</int>
+      <int>37</int>
+      <int>227</int>
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.ObjectPacketHandler</handler>
+    <binds>
+      <int>158</int>
+      <int>228</int>
+    </binds>
+  </packet>
+  <packet>
+    <handler>com.rs2hd.packethandler.RequestPacketHandler</handler>
+    <binds>
+      <int>253</int>
+    </binds>
+  </packet>
+</list>
